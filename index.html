@@ -46,6 +46,10 @@ div[data-post-index-navigation="true"] a { display:inline-flex !important; visib
 nav.pager, nav.post-pager, nav[data-site-documents="true"] { display:flex !important; visibility:visible !important; flex-wrap:wrap; gap:12px; padding:16px 0; }
 nav.pager a, nav.post-pager a, nav[data-site-documents="true"] a { display:inline-flex !important; visibility:visible !important; align-items:center; padding:6px 10px; color:inherit; }
 :where(main, article, .content) :where(img), :where(body) > :where(img) { max-width:100%; height:auto; }
+/* legacy-mobile-sidebar-box */
+@media (max-width:768px) {
+  nav.m-main-avse { box-sizing:border-box; max-width:100%; }
+}
 </style>  <meta property="og:title" content="합정 클럽의 사운드 시스템이 지닌 맹점과 그 실체">
   <meta property="og:description" content="합정 클럽 비교를 통해 모임 및 행사를 준비하는 담당자를 위한 필수 체크리스트. 인원 변동 대응, 연락 채널 단일화, 정산 프로세스 등 실무 중심의 준비 전략을 상세히 안내합니다.">
   <meta property="og:type" content="website">
